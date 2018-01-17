@@ -1,0 +1,49 @@
+const configs = {
+    "local":{
+        EXPRESS_HOST: "0.0.0.0",
+        EXPRESS_PORT: 8080,
+        ES_HOST: "your-eshost.com",
+        ES_PORT: 9200,
+        HEADERS_MAX_AGE: 10,
+        REQ_TIMEOUT: 3000,
+        MYSQL:{
+            host: 'your-eshost.com',
+            user: 'pio',
+            port: 3306,
+            password: 'pio',
+            database: 'pio'
+        }
+    },
+    "staging":{
+        EXPRESS_HOST: "0.0.0.0",
+        EXPRESS_PORT: 8080,
+        ES_HOST: "your-eshost.com",
+        ES_PORT: 9200,
+        HEADERS_MAX_AGE: 1000,
+        REQ_TIMEOUT: 3000,
+        MYSQL:{
+            host: 'your-eshost.com',
+            user: 'pio',
+            port: 3306,
+            password: 'pio',
+            database: 'pio'
+        }
+    },
+    "production":{
+        EXPRESS_HOST: "0.0.0.0",
+        EXPRESS_PORT: 8080,
+        ES_HOST: "your-eshost.com",
+        ES_PORT: 9200,
+        HEADERS_MAX_AGE: 1000,
+        REQ_TIMEOUT: 3000,
+        MYSQL:{
+            host: 'your-eshost.com',
+            user: 'pio',
+            port: 3306,
+            password: 'pio',
+            database: 'pio'
+        }
+    }
+};
+
+module.exports = configs;
